@@ -90,6 +90,7 @@
 	--color-yeti-700: var(--yeti-700);
 	--color-yeti-800: var(--yeti-800);
 	--color-yeti-900: var(--yeti-900);
+    --color-yeti-950: var(--yeti-950);
 }
 
 pre {
