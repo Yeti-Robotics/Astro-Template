@@ -75,3 +75,7 @@
 	--color-yeti-800: var(--yeti-800);
 	--color-yeti-900: var(--yeti-900);
 }
+
+pre {
+    @apply text-sm font-mono;
+}
