@@ -65,9 +65,20 @@
     --font-mono: 'Space Mono', monospace;
 
     /*using rems for font sizes*/
-
-    --text-xs: 0.75rem; /* 16px */
+    --text-9xl: 9rem;
+    --text-8xl: 8rem;
     --text-7xl: 7rem;
+    --text-6xl: 6rem;
+    --text-5xl: 5rem;
+    --text-4xl: 4rem;
+    --text-3xl: 3rem;
+    --text-2xl: 2rem;
+    --text-xl: 1.25rem; /* 20px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-base: 1rem; /* 16px */
+    --text-sm: 0.75rem; /* 16px */
+    --text-xm: 0.875rem; /* 14px */
+
 
     --color-yeti-50: var(--yeti-50);
 	--color-yeti-100: var(--yeti-100);
