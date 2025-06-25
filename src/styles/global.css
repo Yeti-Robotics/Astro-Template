@@ -1,1 +1,77 @@
 @import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: auto;
+    src: url('/font/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: auto;
+    src: url('/font/LibreFranklin-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('/font/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: auto;
+    src: url('/font/SpaceMono-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('/font/SpaceMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: auto;
+    src: url('/font/SpaceMono-BoldItalic.ttf') format('truetype');
+}
+:root {
+    --yeti-50: oklch(0.965 0.005 232.04);
+	--yeti-100: oklch(0.95 0.025 232.04);
+	--yeti-200: oklch(0.905 0.055 232.04);
+	--yeti-300: oklch(0.83 0.1 232.04);
+	--yeti-400: oklch(0.7366 0.114 232.04);
+	--yeti-500: oklch(0.685 0.13 232.04);
+	--yeti-600: oklch(0.595 0.115 232.04);
+	--yeti-700: oklch(0.5 0.1 232.04);
+	--yeti-800: oklch(0.435 0.085 232.04);
+	--yeti-900: oklch(0.36 0.065 232.04);
+	--yeti-950: oklch(0.16 0.0326 232.04);
+}
+
+@theme inline {
+    --font-sans: 'Libre Franklin', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+
+    --color-yeti-50: var(--yeti-50);
+	--color-yeti-100: var(--yeti-100);
+	--color-yeti-200: var(--yeti-200);
+	--color-yeti-300: var(--yeti-300);
+	--color-yeti-400: var(--yeti-400);
+	--color-yeti-500: var(--yeti-500);
+	--color-yeti-600: var(--yeti-600);
+	--color-yeti-700: var(--yeti-700);
+	--color-yeti-800: var(--yeti-800);
+	--color-yeti-900: var(--yeti-900);
+}
