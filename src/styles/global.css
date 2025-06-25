@@ -64,6 +64,11 @@
     --font-sans: 'Libre Franklin', sans-serif;
     --font-mono: 'Space Mono', monospace;
 
+    /*using rems for font sizes*/
+
+    --text-xs: 0.75rem; /* 16px */
+    --text-7xl: 7rem;
+
     --color-yeti-50: var(--yeti-50);
 	--color-yeti-100: var(--yeti-100);
 	--color-yeti-200: var(--yeti-200);
